@@ -1,0 +1,54 @@
+[
+    {
+        "patient_id": "W-2",
+        "check_report": {
+            "Vaginal pH": "> 6",
+            "Amine Test": "(-)",
+            "Vaginal Physical/Chemical Profile": "Vaginal pH > 6, amine test (-).",
+            "Clue Cells": "(-)",
+            "Candida Spores/Hyphae": "No spores or hyphae of Candida albicans observed",
+            "Trichomonas": "Detected",
+            "Vaginal Microscopic Exam": "Clue cells (-), no spores or hyphae of Candida albicans observed. Microscopic examination of secretions report: Trichomonas vaginalis detected."
+        },
+        "basic_msg": "**Basic information**: Female, 28 years old,system ID is W-2\n",
+        "context_msg": "**Basic information**: Female, 28 years old,system ID is W-2.\n**Chief complaint**: Increased vaginal discharge for 1 week, with an unusual odor, accompanied by intermittent vulvar itching..\n**Medical history (Menstrual and marital history, Present medical history, past medical history, and Family history)**: The spouse has a history of unclean sexual activity but shows no obvious urinary system symptoms. No contraceptive measures, such as condoms, were used. Over the past week, the patient has experienced an increased amount of vaginal discharge with an abnormal odor and a sensation of crawling in the vagina. There is no contact bleeding, no irregular vaginal bleeding, and no lower abdominal pain..\n",
+        "groud_truth": [
+            "Trichomonas Vaginitis"
+        ],
+        "physical_examination": "**Physical examination**: Married, nulliparous vulva. No abnormalities were found on the vulvar skin. No purulent discharge was observed from the bilateral paraurethral glands. A vaginal speculum was gently placed, revealing a significant accumulation of vaginal discharge in the vagina and posterior fornix, which was yellow, thin, and contained a large amount of foam. The vaginal walls were congested with scattered petechiae. The cervix was smooth, with no mucopurulent discharge attached. The uterus was anteverted, of normal size, mobile, and non-tender. No tenderness was noted in the bilateral adnexal regions, and no thickening was palpated.."
+    },
+    {
+            "patient_id": "Mic-eme-330",
+            "physical_examination": "Vitals: T 98.9 HR 80 BP 118/72 RR 18 O2Sat 98% RA; General: NAD; CV: RRR; Lungs: CTAB; Abdomen: Soft, obese, NT/ND, +BS; Extremities: ___ edema",
+            "check_report": {
+                "Urinalysis": "Specific Gravity: 1.021; RBC: 3-5 #/hpf (abnormal); Protein: NEG mg/dL; pH: 5 units; Nitrite: NEG; Leukocytes: NEG; Ketone: NEG mg/dL; Glucose: NEG mg/dL; Epithelial Cells: 11-20 #/hpf; Yeast: NONE; WBC: 3-5 #/hpf; Blood: SM; Urobilinogen: NEG mg/dL; Bilirubin: NEG mg/dL; Bacteria: FEW; Urine Color: Yellow; Urine tube, held: HOLD. SPECIMEN TO BE HELD 48 HOURS AND DISCARDED.; Urine Appearance: Clear",
+                "CBC": "MCHC: 32.4 %; MCH: 26.9 pg (abnormal); Red Blood Cells: 4.23 m/uL; RDW: 14.5 %; Hemoglobin: 11.4 g/dL (abnormal); Hematocrit: 35.1 % (abnormal); Platelet Count: 278 K/uL; White Blood Cells: 6 K/uL; MCV: 83 fL",
+                "Electrolyte Panel": "Sodium: 136 mEq/L; Potassium: 4.1 mEq/L; Chloride: 103 mEq/L; Bicarbonate: 21 mEq/L (abnormal); Anion Gap: 16 mEq/L",
+                "Coagulation Panel": "INR(PT): 1; PTT: 21.4 sec (abnormal); PT: 11.9 sec",
+                "Metabolic Panel": "Glucose: 80 mg/dL; Creatinine: 0.6 mg/dL; Urea Nitrogen: 10 mg/dL",
+                "Differential": "Basophils: 0.9 %; Lymphocytes: 24.4 %; Neutrophils: 68.9 %; Monocytes: 3.6 %; Eosinophils: 2.1 %",
+                "Pregnancy Test": "Human Chorionic Gonadotropin: 2138 mIU/mL"
+            },
+            "basic_msg": "**Basic information**: F,41 year old, system ID is Mic-eme-330\n",
+            "context_msg": "**Basic information**: F,41 year old, system ID is Mic-eme-330\n  **Chief Complaint**: Abdominal Pain. \n **Present medical history**: ___ G2P1 presented to the ___ on ___ s/p D&C x 2 after missed abortion following FSH/IUI procedure. Pt had two gestational sacs noted on multiple ultrasounds, but lack of continued growth. She had no vaginal bleeding, but given dx of MAB, she underwent D&C on ___. At the time of the procedure, no tissue was noted on the first pass, so ultrasound was performed which revealed a persistent gestational sac. A second D&C was then performed, but pathology from that procedure did not reveal villi. Pt was discharged from the PACU with reasonable pain control, but the following afternoon began having midline and right lower abdominal pain radiating to her low back. The pain was strong enough to bring her to tears. She had two episodes of emesis associated with the pain. Pain did not respond to perocoet. Denies fevers, chills, vaginal bleeding, unusual vaginal discharge. Upon arrival to the ___, her VS were stable at T 96.8 HR 91 BP 135/83 RR 17 POx 100%. She received 2mg of dilaudid with improvement in the pain. She denied nausea and vomiting, but had radiation of the pain to her low back. \n **Past Medical History**: ObHx: LTCS (IUI pregnancy) GynHx: PCOS. Distant hx of abnormal Pap, normal since. No history of STIs. MedHx: PE/DVT after gastric bypass, PCOS, migraines, IBS, diverticulutis SurgHx: D&C as above, gastric bypass, multiple cystoscopies, laproscopic cholecystectomy, exploratory laparotomy x 2 (one with appendectomy), diagnostic laparoscopy, ventral hernia repair with mesh \n **Social History**:___ \n **Family history**:NC",
+            "groud_truth": [
+                "Missed abortion"
+            ],
+            "diagnosis_discharge": "Retained products of conception. The diagnosis is based on the discharge diagnosis and the final ultrasound report indicating heterogeneous material in the endometrial cavity, which may represent devascularized retained products of conception."
+        },
+    {
+        "patient_id": "W-18",
+        "check_report": {
+            "Basal Body Temperature": "Biphasic pattern, high-temperature phase lasted only 10–11 days",
+            "Blood hCG": "2080 U/L",
+            "Progesterone": "42 ng/ml",
+            "Pelvic Ultrasound": "B-ultrasound indicated the presence of a gestational sac and yolk sac in the uterine cavity, but no embryonic bud was observed."
+        },
+        "basic_msg": "**Basic information**: Female, 30 years old,system ID is W-18\n",
+        "context_msg": "**Basic information**: Female, 30 years old,system ID is W-18.\n**Chief complaint**: Repeated spontaneous miscarriages 3 times in the past 2 years, amenorrhea for 40 days, and slight vaginal bleeding for 1 day..\n**Medical history (Menstrual and marital history, Present medical history, past medical history, and Family history)**: Menstruation is usually irregular, with a cycle of approximately 23 days. The previous three spontaneous miscarriages all occurred around 50 days of amenorrhea. In two instances, no embryonic bud was observed, and in one instance, an embryonic bud was present but no fetal heartbeat was detected. The patient is generally in good health, with no known chronic diseases and no prior medical examinations. \n\nFor this pregnancy, at 40 days of amenorrhea, urine hCG was positive, and there was a small amount of vaginal bleeding for one day..\n",
+        "groud_truth": [
+            "Habitual abortion"
+        ],
+        "physical_examination": "**Physical examination**: 1. Examination Name: General Physical Examination  \n   Examination content: No abnormalities detected.  \n\n2. Examination Name: Gynecological Examination  \n   Examination content: Vulva and vagina are normal. No abnormalities were found in the cervix, uterus, or bilateral adnexa.  \n\nFrom the anatomical structure, no factors causing habitual miscarriage were identified.."
+    }
+]
